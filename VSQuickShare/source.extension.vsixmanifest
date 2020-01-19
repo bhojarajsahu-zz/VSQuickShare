@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="ba2612d7-1432-47e7-b302-825c659cd31a" Version="1.0" Language="en-US" Publisher="bhojarajsahu88" />
+    <DisplayName>VSQuickShare</DisplayName>
+    <Description xml:space="preserve">This is a simple yet powerful tool to broadcast your code. Truely speaking anything in text format. This has a greate value to programmer. Try not to share your personal details, as those are not to be shared.
+
+Try it and don't forget to share your comments and feedback.</Description>
+    <MoreInfo>http://www.lazzycoder.com/</MoreInfo>
+    <Icon>Resources\email48.png</Icon>
+    <PreviewImage>Resources\email48.png</PreviewImage>
+  </Metadata>
+  <Installation InstalledByMsi="false">
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0,14.0]" />
+    <InstallationTarget Version="[12.0,14.0)" Id="Microsoft.VisualStudio.Enterprise" />
+    <InstallationTarget Version="[12.0,14.0)" Id="Microsoft.VisualStudio.Community" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    <Dependency Id="Microsoft.VisualStudio.MPF.12.0" DisplayName="Visual Studio MPF 12.0" d:Source="Installed" Version="[12.0]" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+  </Assets>
+</PackageManifest>

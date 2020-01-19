@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7f5883c2-a6eb-4a2a-92e6-f3e3d9542dd3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://services.bsahu.com/VSQuickShare/VSQuickShareService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="VSQuickShareService.xsd" MetadataType="Schema" ID="8bb616ac-d9dc-489b-be9e-729d9f347039" SourceId="1" SourceUrl="http://services.bsahu.com/VSQuickShare/VSQuickShareService.svc?xsd=xsd1" />
+    <MetadataFile FileName="VSQuickShareService.wsdl" MetadataType="Wsdl" ID="03741f3a-9adb-40eb-bb90-b1ec232d7d53" SourceId="1" SourceUrl="http://services.bsahu.com/VSQuickShare/VSQuickShareService.svc?wsdl" />
+    <MetadataFile FileName="VSQuickShareService1.xsd" MetadataType="Schema" ID="12f3dd26-cdee-4b1b-9355-ad99a27aa2fb" SourceId="1" SourceUrl="http://services.bsahu.com/VSQuickShare/VSQuickShareService.svc?xsd=xsd0" />
+    <MetadataFile FileName="VSQuickShareService2.xsd" MetadataType="Schema" ID="4254236d-9718-48b1-a0dd-ae48bbd44ca3" SourceId="1" SourceUrl="http://services.bsahu.com/VSQuickShare/VSQuickShareService.svc?xsd=xsd3" />
+    <MetadataFile FileName="VSQuickShareService3.xsd" MetadataType="Schema" ID="334d71d7-a35a-4936-af1b-42db2a23dd72" SourceId="1" SourceUrl="http://services.bsahu.com/VSQuickShare/VSQuickShareService.svc?xsd=xsd2" />
+    <MetadataFile FileName="VSQuickShareService.disco" MetadataType="Disco" ID="cd9f4e3e-977a-4438-8328-13c8eb1390d1" SourceId="1" SourceUrl="http://services.bsahu.com/VSQuickShare/VSQuickShareService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
